@@ -18,25 +18,34 @@ type DamageTakenAbility struct {
 }
 
 type DamageTakenEvent struct {
-	Timestamp        int64                 `json:"timestamp"`
-	Type             string                `json:"type"`
-	SourceID         *int64                `json:"sourceID,omitempty"`
-	SourceIsFriendly bool                  `json:"sourceIsFriendly"`
-	TargetID         int64                 `json:"targetID"`
-	TargetIsFriendly bool                  `json:"targetIsFriendly"`
-	Ability          DamageTakenAbility    `json:"ability"`
-	Fight            int64                 `json:"fight"`
-	Buffs            *string               `json:"buffs,omitempty"`
-	HitType          int64                 `json:"hitType"`
-	Amount           int64                 `json:"amount"`
-	Multiplier       *int64                `json:"multiplier,omitempty"`
-	PacketID         *int64                `json:"packetID,omitempty"`
-	SourceResources  *DamageTakenResources `json:"sourceResources,omitempty"`
-	TargetResources  DamageTakenResources  `json:"targetResources"`
-	Source           *DamageTakenSource    `json:"source,omitempty"`
-	SourceInstance   *int64                `json:"sourceInstance,omitempty"`
-	Blocked          *int64                `json:"blocked,omitempty"`
-	Overkill         *int64                `json:"overkill,omitempty"`
+	Timestamp           int64                 `json:"timestamp"`
+	Type                string                `json:"type"`
+	SourceID            *int64                `json:"sourceID,omitempty"`
+	SourceIsFriendly    bool                  `json:"sourceIsFriendly"`
+	TargetID            int64                 `json:"targetID"`
+	TargetIsFriendly    bool                  `json:"targetIsFriendly"`
+	Ability             DamageTakenAbility    `json:"ability"`
+	Fight               int64                 `json:"fight"`
+	Buffs               *string               `json:"buffs,omitempty"`
+	HitType             int64                 `json:"hitType"`
+	Amount              int64                 `json:"amount"`
+	Multiplier          *float64              `json:"multiplier,omitempty"`
+	PacketID            *int64                `json:"packetID,omitempty"`
+	SourceResources     *DamageTakenResources `json:"sourceResources,omitempty"`
+	TargetResources     DamageTakenResources  `json:"targetResources"`
+	Source              *DamageTakenSource    `json:"source,omitempty"`
+	SourceInstance      *int64                `json:"sourceInstance,omitempty"`
+	Tick                *bool                 `json:"tick,omitempty"`
+	FinalizedAmount     *float64              `json:"finalizedAmount,omitempty"`
+	Simulated           *bool                 `json:"simulated,omitempty"`
+	ExpectedAmount      *int64                `json:"expectedAmount,omitempty"`
+	ExpectedCritRate    *int64                `json:"expectedCritRate,omitempty"`
+	ActorPotencyRatio   *int64                `json:"actorPotencyRatio,omitempty"`
+	GuessAmount         *float64              `json:"guessAmount,omitempty"`
+	DirectHitPercentage *int64                `json:"directHitPercentage,omitempty"`
+	Absorbed            *int64                `json:"absorbed,omitempty"`
+	Overkill            *int64                `json:"overkill,omitempty"`
+	Unpaired            *bool                 `json:"unpaired,omitempty"`
 }
 
 type DamageTakenSource struct {

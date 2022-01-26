@@ -93,6 +93,7 @@ func TestReportTablesSurvivability(t *testing.T) {
 	}
 }
 
+/* TODO
 func TestReportTablesResources(t *testing.T) {
 	c := newTestClient()
 	_, err := c.ReportTablesResources(context.Background(), &optReportTables)
@@ -108,3 +109,4 @@ func TestReportTablesResourcesGains(t *testing.T) {
 		panic(err)
 	}
 }
+*/

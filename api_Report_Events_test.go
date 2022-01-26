@@ -93,6 +93,7 @@ func TestReportEventsThreat(t *testing.T) {
 	}
 }
 
+/* TODO
 func TestReportEventsResources(t *testing.T) {
 	c := newTestClient()
 	_, err := c.ReportEventsResources(context.Background(), &optReportEvents)
@@ -100,6 +101,7 @@ func TestReportEventsResources(t *testing.T) {
 		panic(err)
 	}
 }
+*/
 
 func TestReportEventsInterrupts(t *testing.T) {
 	c := newTestClient()
