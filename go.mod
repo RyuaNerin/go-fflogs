@@ -1,4 +1,4 @@
-module fflogs
+module github.com/RyuaNerin/go-fflogs
 
 go 1.17
 
