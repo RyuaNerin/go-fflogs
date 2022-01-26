@@ -3,7 +3,7 @@ package fflogs
 import (
 	"context"
 
-	"fflogs/structure"
+	"github.com/RyuaNerin/go-fflogs/structure"
 )
 
 // Gets an object that contains a totl count and an array of EncounterRanking objects and a total number of rankings for that encounter. Each EncounterRanking corresponds to a single character or guild/team.

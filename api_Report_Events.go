@@ -3,7 +3,7 @@ package fflogs
 import (
 	"context"
 
-	"fflogs/structure/reportevents"
+	"github.com/RyuaNerin/go-fflogs/structure/reportevents"
 )
 
 // Gets a set of events based off the view you're asking for. This exactly corresponds to the Events view on the site.

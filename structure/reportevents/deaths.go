@@ -1,6 +1,6 @@
 package reportevents
 
-import "fflogs/structure"
+import "github.com/RyuaNerin/go-fflogs/structure"
 
 type Deaths struct {
 	structure.BaseResponse

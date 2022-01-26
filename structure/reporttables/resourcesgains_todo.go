@@ -1,6 +1,6 @@
 package reporttables
 
-import "fflogs/structure"
+import "github.com/RyuaNerin/go-fflogs/structure"
 
 // TODO
 type ResourcesGains struct {

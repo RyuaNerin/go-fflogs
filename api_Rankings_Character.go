@@ -3,7 +3,7 @@ package fflogs
 import (
 	"context"
 
-	"fflogs/structure"
+	"github.com/RyuaNerin/go-fflogs/structure"
 )
 
 // Gets an array of CharacterRanking objects. Each CharacterRanking corresponds to a single rank on a fight for the specified character.

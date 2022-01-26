@@ -3,7 +3,7 @@ package fflogs
 import (
 	"context"
 
-	"fflogs/structure"
+	"github.com/RyuaNerin/go-fflogs/structure"
 )
 
 // Gets an array of Zone objects. Each zone corresponds to a raid/dungeon instance in the game and has its own set of encounters.

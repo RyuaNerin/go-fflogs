@@ -3,7 +3,7 @@ package fflogs
 import (
 	"context"
 
-	"fflogs/structure"
+	"github.com/RyuaNerin/go-fflogs/structure"
 )
 
 // Gets an array of Class objects. Each Class corresponds to a class in thegame.

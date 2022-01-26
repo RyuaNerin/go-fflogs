@@ -3,7 +3,7 @@ package fflogs
 import (
 	"context"
 
-	"fflogs/structure"
+	"github.com/RyuaNerin/go-fflogs/structure"
 )
 
 // Gets an array of Report objects. Each Report corresponds to a single calendar report for the specified user's personal logs.

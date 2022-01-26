@@ -3,7 +3,7 @@ package fflogs
 import (
 	"context"
 
-	"fflogs/structure/reporttables"
+	"github.com/RyuaNerin/go-fflogs/structure/reporttables"
 )
 
 // Gets a table of entries, either by actor or ability, of damage, healing and cast totals for each entry. This API exactly follows what is returned for the Tables panes on the site. It can and will change as the needs of those panes do, and as such should never be considered a frozen API. Use at your own risk.

@@ -12,7 +12,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"fflogs/structure"
+	"github.com/RyuaNerin/go-fflogs/structure"
 
 	jsoniter "github.com/json-iterator/go"
 	"github.com/spf13/cast"
