@@ -2,6 +2,7 @@ package structure
 
 type EncounterRankings struct {
 	BaseResponse
+
 	Page         int64              `json:"page"`
 	HasMorePages bool               `json:"hasMorePages"`
 	Count        int64              `json:"count"`

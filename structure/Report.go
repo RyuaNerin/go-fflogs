@@ -2,6 +2,7 @@ package structure
 
 type Report struct {
 	BaseResponse
+
 	ID        string   `json:"id"`        // (optional) The report code. Can be viewed on the site with the URL string of /reports/<code>.,
 	Title     string   `json:"title"`     // (optional) The title for the report.,
 	Owner     string   `json:"owner"`     // (optional) The name of the user that uploaded the report.,

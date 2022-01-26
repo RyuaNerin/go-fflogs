@@ -1,6 +1,10 @@
 package reporttables
 
+import "github.com/RyuaNerin/go-fflogs/structure"
+
 type Healing struct {
+	structure.BaseResponse
+
 	Entries     []HealingEntry `json:"entries"`
 	TotalTime   int64          `json:"totalTime"`
 	LogVersion  int64          `json:"logVersion"`

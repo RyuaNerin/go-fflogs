@@ -2,6 +2,7 @@ package structure
 
 type Fights struct {
 	BaseResponse
+
 	Fights             []FightsFight       `json:"fights"`
 	Lang               string              `json:"lang"`
 	Friendlies         []FightsFriendly    `json:"friendlies"`

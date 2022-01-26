@@ -4,6 +4,7 @@ import "github.com/RyuaNerin/go-fflogs/structure"
 
 type Casts struct {
 	structure.BaseResponse
+
 	Events            []CastsEvent `json:"events"`
 	Count             int64        `json:"count"`
 	NextPageTimestamp int64        `json:"nextPageTimestamp"`

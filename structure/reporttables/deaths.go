@@ -1,6 +1,10 @@
 package reporttables
 
+import "github.com/RyuaNerin/go-fflogs/structure"
+
 type Deaths struct {
+	structure.BaseResponse
+
 	Entries []DeathsEntry `json:"entries"`
 }
 

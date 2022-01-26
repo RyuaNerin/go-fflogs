@@ -1,6 +1,10 @@
 package reporttables
 
+import "github.com/RyuaNerin/go-fflogs/structure"
+
 type Survivability struct {
+	structure.BaseResponse
+
 	Players       []SurvivabilityActor        `json:"players"`
 	Fights        []SurvivabilityFight        `json:"fights"`
 	Actortotals   []SurvivabilityActor        `json:"actortotals"`

@@ -4,6 +4,7 @@ import "github.com/RyuaNerin/go-fflogs/structure"
 
 type Healing struct {
 	structure.BaseResponse
+
 	Events            []HealingEvent   `json:"events"`
 	Count             int64            `json:"count"`
 	NextPageTimestamp int64            `json:"nextPageTimestamp"`

@@ -1,6 +1,10 @@
 package reporttables
 
+import "github.com/RyuaNerin/go-fflogs/structure"
+
 type DamageDone struct {
+	structure.BaseResponse
+
 	Entries     []DamageDoneEntry `json:"entries"`
 	TotalTime   int64             `json:"totalTime"`
 	Downtime    int64             `json:"downtime"`

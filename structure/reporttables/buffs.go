@@ -1,6 +1,10 @@
 package reporttables
 
+import "github.com/RyuaNerin/go-fflogs/structure"
+
 type Buffs struct {
+	structure.BaseResponse
+
 	Auras      []BuffsAura `json:"auras"`
 	UseTargets bool        `json:"useTargets"`
 	TotalTime  int64       `json:"totalTime"`

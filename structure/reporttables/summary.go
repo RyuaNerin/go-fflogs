@@ -1,6 +1,10 @@
 package reporttables
 
+import "github.com/RyuaNerin/go-fflogs/structure"
+
 type Summary struct {
+	structure.BaseResponse
+
 	TotalTime      int64                `json:"totalTime"`
 	ItemLevel      int64                `json:"itemLevel"`
 	LogVersion     int64                `json:"logVersion"`

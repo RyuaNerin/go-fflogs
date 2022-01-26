@@ -2,6 +2,7 @@ package structure
 
 type Zone struct {
 	BaseResponse
+
 	ID         int              `json:"id"`         // A unique identifier representing this specific zone.,
 	Name       string           `json:"name"`       // The English name of the raid zone.,
 	Frozen     bool             `json:"frozen"`     // Whether or not the rankings and statistics for the zone are frozen. If set, then the results for this zone are never going to change, and you don't have to fetch them again.,

@@ -2,6 +2,7 @@ package structure
 
 type CharacterRanking struct {
 	BaseResponse
+
 	EncounterID    int     `json:"encounterID"`
 	EncounterName  string  `json:"encounterName"`
 	Class          string  `json:"class"`

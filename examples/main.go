@@ -5,8 +5,7 @@ import (
 	"log"
 	"os"
 
-	"fflogs"
-
+	"github.com/RyuaNerin/go-fflogs"
 	"github.com/RyuaNerin/go-fflogs/structure"
 
 	"github.com/joho/godotenv"
